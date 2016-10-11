@@ -1,31 +1,31 @@
 #textArea {
   width: 700px;
   height: 150px;
-  font-family: 'Nunito', sans-serif;
+  font-family: courier;
   font-size: 36px;
 }
 
-#inputArea {
-  width: 700px;
-  height: 50px;
-}
-
 #inputText {
-  width: 700px;
-  height: 50px;
   font-size: 16px;
+  border: 0px solid #C0C2C5;
+  color: #green;
+  padding: 5px;
+  margin-right: 3px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 80%;
 }
 
 #translationChoices {
   margin: 10px;
-  font-family: sans-serif;
+  font-family: courier;
   font-size: 18px;
 }
 
 #translationArea {
   width: 700px;
   height: 150px;
-  font-family: 'Nunito', sans-serif;
+  font-family: courier;
   font-size: 36px;
 }
 
@@ -33,4 +33,35 @@
   width: 700px;
   height: 50px;
   font-size: 16px;
+}
+.h1{
+  font-family:Courier;
+}
+
+.terminal{
+    margin: 2;
+    padding: 10px;
+    list-style: none;
+    background: #000000;
+    color: #45D40C;
+    font-family:Courier;
+    line-height: 1.8em;
+
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+    outline: none;
 }
