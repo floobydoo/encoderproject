@@ -31,9 +31,15 @@
 }
 
 #translationInputText {
-  width: 700px;
-  height: 50px;
   font-size: 16px;
+  border: 0px solid #C0C2C5;
+  color: #green;
+  padding: 5px;
+  margin-right: 3px;
+  text-decoration: none;
+  font-family: courier;
+  font-size: 20px;
+  width: 80%;
 }
 
 .terminal{
